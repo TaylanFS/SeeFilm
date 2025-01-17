@@ -1,0 +1,28 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.env
+
+# URL base da API: https://api.themoviedb.org/3/
+# URL DA API: https://api.themoviedb.org/3/movie/now_playing?api_key=d8b65021204f9326d7b9d6d5255e747c&language=pt-BR
